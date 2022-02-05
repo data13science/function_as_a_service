@@ -20,5 +20,6 @@ def lambda_handler(event, context):
         "headers": {"Content-Type": "text/html",},
     }
     return response
+    
 "Right-click" deploy the lambda function
 Log into AWS console and click on the API Gateway icon in the AWS Lambda section. Verify that it returns "Hello website Lambda".
